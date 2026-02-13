@@ -3,11 +3,11 @@ export default function Hero(){
         <section className="relative px-5 md:px-7 lg:px-10 xl:pl-40 h-screen md:h-full lg:flex-row flex-col md:pb-40 flex lg:items-center justify-between bg-white text-white overflow-hidden">
         {/* Text Section */}
         <div className="z-10 w-full max-w-[717px] lg:mt-30">
-          <h1 className="text-[28px] md:text-[54px] lg:text-6xl  font-extrabold leading-tight text-[#C94922]">
+          <h1 className="text-[28px] md:text-[54px] lg:text-6xl mt-7 md:mt-0  font-extrabold leading-tight text-[#C94922]">
             Cultivating the <br /> Future of Agriculture
           </h1>
           <p className="mt-6 text-sm text-[#0F172A]">
-            Blending Science, Innovation, and Sustainability to transform Ghanaˆ1s agricultural landscape.
+            Blending Science, Innovation, and Sustainability to transform Ghanaˆs agricultural landscape.
           </p>
   
           <button className="mt-8 bg-[#C94922] px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-[#a73816]">
@@ -33,9 +33,9 @@ export default function Hero(){
           />
   
           {/* Floating Cards */}
-          <div className="absolute z-200 top-30 lg:top-50  right-[40%] lg:right-[72%] bg-white/50 backdrop-blur-[20px] shadow-lg text-black rounded-xl p-3 w-54 flex  items-center gap-3">
-            <div className="bg-[#23BDEE] rounded-lg p-1.5">
-                <svg width="20" height="20" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className="absolute z-200 top-45 lg:top-50 right-[60%] lg:right-[72%] bg-white/50 backdrop-blur-[20px] shadow-lg text-black rounded-xl p-1.5 md:p-3 w-35 md:w-54 flex  items-center gap-1.5 md:gap-3">
+            <div className="bg-[#23BDEE] rounded-lg p-1 md:p-1.5">
+                <svg className="w-3 h-3 md:w-5 md:h-5" width="20" height="20" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_40_12098)">
                     <path d="M6.18766 0C5.69946 0 5.30371 0.395748 5.30371 0.883945V2.65178H7.07156V0.883945C7.07156 0.395748 6.67581 0 6.18766 0Z" fill="white"/>
                     <path d="M18.5627 0C18.0745 0 17.6787 0.395748 17.6787 0.883945V2.65178H19.4465V0.883945C19.4466 0.395748 19.0509 0 18.5627 0Z" fill="white"/>
@@ -58,14 +58,14 @@ export default function Hero(){
                 </svg>
             </div>
             <div className="flex flex-col">
-                <div className="text-[15px] text-[#595959] font-semibold">20+</div>
-                <p className="text-[12px] text-[#545567]">Tissue Culture Solutions</p>
+                <div className="text-xs md:text-[15px] text-[#595959] font-semibold">20+</div>
+                <p className="text-[8px] md:text-[12px] text-[#545567]">Tissue Culture Solutions</p>
             </div>
           </div>
   
-          <div className="absolute top-90 lg:top-125 z-100  right-[20%] flex items-center gap-3 bg-white/60 backdrop-blur-[20px] shadow-lg text-black rounded-xl  p-3 w-60">
+          <div className="absolute top-62 lg:top-125 z-100 right-[60%] flex items-center gap-1.5 md:gap-3 bg-white/60 backdrop-blur-[20px] shadow-lg text-black rounded-xl  p-1.5 md:p-3 w-35 md:w-60">
             <div className="bg-[#F88C3D] rounded-lg p-1">
-                <svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" className="w-3 h-3 md:w-5 md:h-5" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_40_12150)">
                 <path d="M26.0357 3.85718H0.964355L13.5001 14.1828L26.1775 3.88611C26.1311 3.87255 26.0837 3.86288 26.0357 3.85718Z" fill="white"/>
                 <path d="M14.1084 16.1768C13.7532 16.4678 13.242 16.4678 12.8867 16.1768L0 5.56006V22.1786C0 22.7111 0.431725 23.1429 0.964304 23.1429H26.0357C26.5683 23.1429 27 22.7111 27 22.1786V5.70278L14.1084 16.1768Z" fill="white"/>
@@ -78,10 +78,10 @@ export default function Hero(){
                 </svg>
             </div>
             <div className="flex flex-col gap-1">
-                <h4 className="font- text-[#595959] text-sm flex items-center gap-2">
+                <h4 className="font- text-[#595959] text-xs md:text-sm flex items-center gap-2">
                     Thank You
                 </h4>
-                <p className="text-xs text-[#545567]">Your request is received</p>
+                <p className="text-[8px] md:text-xs text-[#545567]">Your request is received</p>
             </div>
           </div>
         </div>

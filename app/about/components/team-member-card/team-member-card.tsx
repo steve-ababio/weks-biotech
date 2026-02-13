@@ -9,7 +9,7 @@ export default function  TeamMemberCard({ member }:TeamMemberCardProps) {
   return (
     <div className="flex flex-col space-y-4">
       {/* Image Container */}
-      <div className="relative aspect-5/4 overflow-hidden rounded-lg">
+      <div className="relative aspect-5/5 overflow-hidden rounded-lg">
         <Image
           src={member.imageUrl}
           alt={member.name}

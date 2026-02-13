@@ -49,16 +49,16 @@ const Header = () => {
     })
   };
   return (
-    <header className="w-full bg-white border-b py-3 border-[#E2E8F0] font-sans sticky top-0 z-50">
+    <header className="w-full bg-white border-b   md:py-3 border-[#E2E8F0] font-sans sticky top-0 z-50">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center h-20 pr-3 md:pr-0">
+        <div className="flex justify-between items-center h-16 pr-3 md:pr-0">
           {/* Logo Section */}
           <div className="shrink-0 flex items-center">
             <Image 
               src="/assets/images/logo.svg" 
               alt="WEKS Biotechnologies Ltd." 
-              width={180} 
-              height={50} 
+              width={120} 
+              height={30} 
               className="object-contain"
             />
           </div>
