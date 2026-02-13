@@ -1,0 +1,108 @@
+export default function Hero(){
+    return (
+        <section className="relative px-5 md:px-7 lg:px-10 xl:pl-40 h-screen lg:flex-row flex-col flex mt-20 lg:items-center justify-between bg-white text-white overflow-hidden">
+        {/* Text Section */}
+        <div className="z-10 w-full max-w-[717px]">
+          <h1 className="text-[28px] md:text-[54px] lg:text-6xl font-extrabold leading-tight text-[#C94922]">
+            Cultivating the <br /> Future of Agriculture
+          </h1>
+          <p className="mt-6 text-sm text-[#0F172A]">
+            Blending Science, Innovation, and Sustainability to transform Ghanaˆ1s agricultural landscape.
+          </p>
+  
+          <button className="mt-8 bg-[#C94922] px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-[#a73816]">
+            Contact Us
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.9297 16.782C19.7962 17.3558 19.4813 17.8713 19.0317 18.252C18.5298 18.7625 17.9307 19.1672 17.2698 19.4424C16.6089 19.7175 15.8996 19.8575 15.1837 19.854H14.8257C13.3398 19.7766 11.8834 19.409 10.5387 18.772C10.2127 18.619 9.89572 18.476 9.51872 18.302C7.94277 17.4119 6.4963 16.31 5.21972 15.027C3.56027 13.4707 2.20043 11.6231 1.20772 9.576C0.661201 8.45925 0.293068 7.26374 0.116721 6.033C-0.129653 4.7505 0.0160077 3.42352 0.534721 2.225C0.857383 1.68089 1.25231 1.18302 1.70872 0.745C1.91719 0.517578 2.16929 0.334422 2.45001 0.206434C2.73072 0.0784461 3.03432 0.0082418 3.34272 0C3.67901 0.0355468 4.00482 0.137888 4.30104 0.301021C4.59725 0.464154 4.85791 0.684794 5.06772 0.95C5.53772 1.47 6.08772 1.97 6.58772 2.5L7.23172 3.134C7.61172 3.467 7.84672 3.936 7.88472 4.44C7.88572 4.904 7.71472 5.351 7.40472 5.696C7.20951 5.93792 7.0019 6.16956 6.78272 6.39L6.56772 6.615C6.44251 6.73135 6.34481 6.87414 6.28172 7.033C6.22972 7.187 6.21172 7.351 6.23172 7.513C6.39572 7.957 6.65272 8.361 6.98672 8.697C7.50672 9.401 8.00672 10.014 8.56872 10.739C9.53799 11.8573 10.6871 12.806 11.9687 13.546C12.0917 13.646 12.2387 13.713 12.3967 13.74C12.5367 13.761 12.6777 13.74 12.8047 13.678C13.1941 13.4696 13.5406 13.1893 13.8257 12.852C14.1857 12.408 14.7077 12.126 15.2757 12.065C15.5484 12.066 15.818 12.1217 16.0688 12.2287C16.3196 12.3357 16.5463 12.4919 16.7357 12.688C16.9691 12.8893 17.1901 13.1037 17.3987 13.331L17.7047 13.658L18.0217 13.964C18.2147 14.158 18.3987 14.332 18.5817 14.536C18.9151 14.8227 19.2251 15.1323 19.5117 15.465C19.8047 15.839 19.9527 16.307 19.9297 16.782Z" fill="white"/>
+            </svg>
+          </button>
+        </div>
+  
+        {/* Image Section */}
+        <div className="relative h-full block mt-10 lg:mt-0  lg:pr-20">
+          <div
+            className="absolute z-50 h-[200px] w-full left-[2%] top-80 blur-[150px] rotate-90"
+            style={{
+              background: "linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), rgba(241,180,45,0.21)",
+            }}
+          ></div>
+          <img
+            src="/assets/images/hero.svg"
+            alt="Scientist holding plant"
+            className="relative z-100 h-auto w-full rounded-lg"
+          />
+  
+          {/* Floating Cards */}
+          <div className="absolute z-200 top-30 lg:top-50  right-[40%] lg:right-[72%] bg-white/50 backdrop-blur-[20px] shadow-lg text-black rounded-xl p-3 w-54 flex  items-center gap-3">
+            <div className="bg-[#23BDEE] rounded-lg p-1.5">
+                <svg width="20" height="20" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_40_12098)">
+                    <path d="M6.18766 0C5.69946 0 5.30371 0.395748 5.30371 0.883945V2.65178H7.07156V0.883945C7.07156 0.395748 6.67581 0 6.18766 0Z" fill="white"/>
+                    <path d="M18.5627 0C18.0745 0 17.6787 0.395748 17.6787 0.883945V2.65178H19.4465V0.883945C19.4466 0.395748 19.0509 0 18.5627 0Z" fill="white"/>
+                    <path d="M22.0982 2.65173H19.4464V6.18746C19.4464 6.67566 19.0507 7.07141 18.5625 7.07141C18.0743 7.07141 17.6785 6.67566 17.6785 6.18746V2.65173H7.07141V6.18746C7.07141 6.67566 6.67566 7.07141 6.18746 7.07141C5.69926 7.07141 5.30352 6.67566 5.30352 6.18746V2.65173H2.65178C1.18724 2.65173 0 3.83898 0 5.30352V22.0982C0 23.5627 1.18724 24.75 2.65178 24.75H22.0982C23.5628 24.75 24.75 23.5627 24.75 22.0982V5.30352C24.75 3.83898 23.5628 2.65173 22.0982 2.65173ZM22.9821 22.0982C22.9821 22.5864 22.5864 22.9821 22.0982 22.9821H2.65178C2.16359 22.9821 1.76784 22.5864 1.76784 22.0982V10.6071H22.9821V22.0982Z" fill="white"/>
+                    <path d="M7.07122 12.375H5.30338C4.81518 12.375 4.41943 12.7708 4.41943 13.259C4.41943 13.7472 4.81518 14.1429 5.30338 14.1429H7.07122C7.55942 14.1429 7.95517 13.7472 7.95517 13.259C7.95517 12.7708 7.55942 12.375 7.07122 12.375Z" fill="white"/>
+                    <path d="M13.2587 12.375H11.4909C11.0027 12.375 10.6069 12.7708 10.6069 13.259C10.6069 13.7472 11.0027 14.1429 11.4909 14.1429H13.2587C13.7469 14.1429 14.1427 13.7472 14.1427 13.259C14.1427 12.7708 13.7469 12.375 13.2587 12.375Z" fill="white"/>
+                    <path d="M19.4462 12.375H17.6784C17.1902 12.375 16.7944 12.7708 16.7944 13.259C16.7944 13.7472 17.1902 14.1429 17.6784 14.1429H19.4462C19.9344 14.1429 20.3302 13.7472 20.3302 13.259C20.3302 12.7708 19.9344 12.375 19.4462 12.375Z" fill="white"/>
+                    <path d="M7.07122 15.9106H5.30338C4.81518 15.9106 4.41943 16.3064 4.41943 16.7946C4.41943 17.2828 4.81518 17.6785 5.30338 17.6785H7.07122C7.55942 17.6785 7.95517 17.2828 7.95517 16.7946C7.95517 16.3064 7.55942 15.9106 7.07122 15.9106Z" fill="white"/>
+                    <path d="M13.2587 15.9106H11.4909C11.0027 15.9106 10.6069 16.3064 10.6069 16.7946C10.6069 17.2828 11.0027 17.6785 11.4909 17.6785H13.2587C13.7469 17.6785 14.1427 17.2828 14.1427 16.7946C14.1427 16.3064 13.7469 15.9106 13.2587 15.9106Z" fill="white"/>
+                    <path d="M19.4462 15.9106H17.6784C17.1902 15.9106 16.7944 16.3064 16.7944 16.7946C16.7944 17.2828 17.1902 17.6785 17.6784 17.6785H19.4462C19.9344 17.6785 20.3302 17.2828 20.3302 16.7946C20.3301 16.3064 19.9344 15.9106 19.4462 15.9106Z" fill="white"/>
+                    <path d="M7.07122 19.4464H5.30338C4.81518 19.4464 4.41943 19.8422 4.41943 20.3304C4.41943 20.8186 4.81518 21.2142 5.30338 21.2142H7.07122C7.55942 21.2142 7.95517 20.8185 7.95517 20.3303C7.95517 19.8421 7.55942 19.4464 7.07122 19.4464Z" fill="white"/>
+                    <path d="M13.2587 19.4464H11.4909C11.0027 19.4464 10.6069 19.8422 10.6069 20.3304C10.6069 20.8186 11.0027 21.2143 11.4909 21.2143H13.2587C13.7469 21.2143 14.1427 20.8186 14.1427 20.3304C14.1427 19.8422 13.7469 19.4464 13.2587 19.4464Z" fill="white"/>
+                    <path d="M19.4462 19.4464H17.6784C17.1902 19.4464 16.7944 19.8422 16.7944 20.3304C16.7944 20.8186 17.1902 21.2143 17.6784 21.2143H19.4462C19.9344 21.2143 20.3302 20.8186 20.3302 20.3304C20.3302 19.8422 19.9344 19.4464 19.4462 19.4464Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_40_12098">
+                    <rect width="24.75" height="24.75" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div className="flex flex-col">
+                <div className="text-[15px] text-[#595959] font-semibold">20+</div>
+                <p className="text-[12px] text-[#545567]">Tissue Culture Solutions</p>
+            </div>
+          </div>
+  
+          <div className="absolute top-50 md:top-90 lg:top-125 flex flex-col items-center z-100 left-0 bg-white/60 backdrop-blur-[20px]  text-black rounded-xl shadow-lg p-4 w-68">
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                 <img src="/assets/images/user.svg" className="w-10 h-10 rounded-full" />
+                <div className="absolute bottom-0 left-6 bg-[#2EBB5E] w-3 h-3 rounded-[50%]"></div>
+              </div>
+              <div>
+                <h4 className="text-sm text-[#595959] font-semibold">User Experience Class</h4>
+                <p className="text-xs text-[#545567]">Today at 12.00 PM</p>
+              </div>
+            </div>
+            <button className="mt-4 cursor-pointer bg-[#F1B42D] text-center text-white px-4 py-2 rounded-full text-xs">
+              Contact Us
+            </button>
+          </div>
+  
+          <div className="absolute top-90 lg:top-125 z-100  right-[20%] flex items-center gap-3 bg-white/60 backdrop-blur-[20px] shadow-lg text-black rounded-xl  p-3 w-60">
+            <div className="bg-[#F88C3D] rounded-lg p-1">
+                <svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_40_12150)">
+                <path d="M26.0357 3.85718H0.964355L13.5001 14.1828L26.1775 3.88611C26.1311 3.87255 26.0837 3.86288 26.0357 3.85718Z" fill="white"/>
+                <path d="M14.1084 16.1768C13.7532 16.4678 13.242 16.4678 12.8867 16.1768L0 5.56006V22.1786C0 22.7111 0.431725 23.1429 0.964304 23.1429H26.0357C26.5683 23.1429 27 22.7111 27 22.1786V5.70278L14.1084 16.1768Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_40_12150">
+                <rect width="27" height="27" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </div>
+            <div className="flex flex-col gap-1">
+                <h4 className="font- text-[#595959] text-sm flex items-center gap-2">
+                    Thank You
+                </h4>
+                <p className="text-xs text-[#545567]">Your request is received</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+}
+
+/* Ellipse 119 */
