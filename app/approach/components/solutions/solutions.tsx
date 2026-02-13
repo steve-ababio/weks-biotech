@@ -12,7 +12,11 @@ export default async function Solutions() {
                 {
                     posts.map(solution=>(
                     <div className="w-full">
-                        <Card {...solution} />
+                        <Card
+                             imageUrl={solution.imageUrl}
+                             title={solution.title}
+                             description={solution.description}
+                        />
                         <a className="text-[#CE532F] text-base leading-6 mt-8 cursor-pointer flex items-center gap-2" href={`/blog/${solution.slug}`}>Read More 
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.834961 9.16829L9.16829 0.834961M9.16829 0.834961H0.834961M9.16829 0.834961V9.16829" stroke="#CE532F" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
