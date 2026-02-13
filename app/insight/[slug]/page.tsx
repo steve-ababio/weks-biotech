@@ -3,7 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { MdxComponents } from '@/app/components/mdx-components/mdx-components';
-import ContactMap from '@/app/approach/components/contact-map/contact-map';
 import OtherInsights from './components/other-insights/other-insight';
 import Header from '@/app/components/header/header';
 import Footer from '@/app/components/footer/footer';

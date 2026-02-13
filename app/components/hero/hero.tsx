@@ -1,9 +1,9 @@
 export default function Hero(){
     return (
-        <section className="relative px-5 md:px-7 lg:px-10 xl:pl-40 h-screen lg:flex-row flex-col flex mt-20 lg:items-center justify-between bg-white text-white overflow-hidden">
+        <section className="relative px-5 md:px-7 lg:px-10 xl:pl-40 h-screen md:h-full lg:flex-row flex-col md:pb-40 flex lg:items-center justify-between bg-white text-white overflow-hidden">
         {/* Text Section */}
-        <div className="z-10 w-full max-w-[717px]">
-          <h1 className="text-[28px] md:text-[54px] lg:text-6xl font-extrabold leading-tight text-[#C94922]">
+        <div className="z-10 w-full max-w-[717px] lg:mt-30">
+          <h1 className="text-[28px] md:text-[54px] lg:text-6xl  font-extrabold leading-tight text-[#C94922]">
             Cultivating the <br /> Future of Agriculture
           </h1>
           <p className="mt-6 text-sm text-[#0F172A]">
@@ -61,22 +61,6 @@ export default function Hero(){
                 <div className="text-[15px] text-[#595959] font-semibold">20+</div>
                 <p className="text-[12px] text-[#545567]">Tissue Culture Solutions</p>
             </div>
-          </div>
-  
-          <div className="absolute top-50 md:top-90 lg:top-125 flex flex-col items-center z-100 left-0 bg-white/60 backdrop-blur-[20px]  text-black rounded-xl shadow-lg p-4 w-68">
-            <div className="flex items-center gap-3">
-              <div className="relative">
-                 <img src="/assets/images/user.svg" className="w-10 h-10 rounded-full" />
-                <div className="absolute bottom-0 left-6 bg-[#2EBB5E] w-3 h-3 rounded-[50%]"></div>
-              </div>
-              <div>
-                <h4 className="text-sm text-[#595959] font-semibold">User Experience Class</h4>
-                <p className="text-xs text-[#545567]">Today at 12.00 PM</p>
-              </div>
-            </div>
-            <button className="mt-4 cursor-pointer bg-[#F1B42D] text-center text-white px-4 py-2 rounded-full text-xs">
-              Contact Us
-            </button>
           </div>
   
           <div className="absolute top-90 lg:top-125 z-100  right-[20%] flex items-center gap-3 bg-white/60 backdrop-blur-[20px] shadow-lg text-black rounded-xl  p-3 w-60">
