@@ -30,7 +30,7 @@ export default function BenefitsSection() {
           <h2 className="text-3xl font-bold text-[#CE532F] mb-2">Benefits</h2>
           <p className="text-[#11052B] text-xl font-normal">Everything you need to thrive personally and professionally.</p>
         </div>  
-      <div className="max-w-6xl rounded-[28px] p-16 mx-auto bg-[#CE532F29]">
+      <div className="max-w-6xl rounded-[28px] px-4 md:px-16  py-16 mx-auto bg-[#CE532F29]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {benefits.map((benefit, index) => (
             <div 

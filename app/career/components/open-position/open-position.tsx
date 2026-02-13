@@ -1,11 +1,18 @@
 'use client'
 import { useState } from 'react';
 
-const positions = [
-  { id: 1, title: 'Call Center Representative', category: 'Customer Support', type: 'Hybrid', location: 'Beirut' },
-  { id: 2, title: 'Branch Customer Service Representative', category: 'Customer Support', type: 'Hybrid', location: 'Beirut' },
-  { id: 3, title: 'Marketing and Communication Specialist', category: 'Marketing', type: 'Hybrid', location: 'Beirut' },
-  { id: 4, title: 'Social Media Specialist', category: 'Marketing', type: 'Hybrid', location: 'Beirut' },
+type Position = {
+  id:number,
+  title:string,
+  category:string,
+  type:string,
+  location:string
+}
+const positions:Position[] = [
+  // { id: 1, title: 'Call Center Representative', category: 'Customer Support', type: 'Hybrid', location: 'Beirut' },
+  // { id: 2, title: 'Branch Customer Service Representative', category: 'Customer Support', type: 'Hybrid', location: 'Beirut' },
+  // { id: 3, title: 'Marketing and Communication Specialist', category: 'Marketing', type: 'Hybrid', location: 'Beirut' },
+  // { id: 4, title: 'Social Media Specialist', category: 'Marketing', type: 'Hybrid', location: 'Beirut' },
 ];
 
 const OpenPositions = () => {
@@ -20,7 +27,7 @@ const OpenPositions = () => {
     <div className="h-auto rounded-[28px] bg-[#FEFAEF] font-sans text-[#333]">
       <div className="mx-auto w-full">
         {/* Container */}
-        <div className="p-10 ">
+        <div className="py-10 px-4 md:p-10 ">
           {/* Tabs */}
           <div className="mb-8 flex space-x-8 border-b border-gray-200 pb-2">
             {categories.map((cat) => (
