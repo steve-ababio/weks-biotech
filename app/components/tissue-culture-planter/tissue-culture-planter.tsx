@@ -40,7 +40,7 @@ export default function TissueCultureSolutionPlanter() {
         </h1>
 
         <p className="text-base lg:text-lg">
-            Viscon and ISO collaborate to unlock Tissue Culture automation. With its
+            Weks and ISO collaborate to unlock Tissue Culture automation. With its
             high-tech technology, this innovative Tissue Culture Planter elevates
             your Tissue Culture production to new levels of excellence.
         </p>

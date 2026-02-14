@@ -5,7 +5,7 @@ const JoinTeam = () => {
   const benefits = [
     {
       title: "Team work",
-      description: "At Mojo, we believe in the incredible power of teamwork. We're not just a workforce; we're a family that collaborates, supports, and inspires one another to achieve remarkable things. Join us, and you'll be part of a team where your individual strengths contribute to a collective success story.",
+      description: "At Weks, we believe in the incredible power of teamwork. We're not just a workforce; we're a family that collaborates, supports, and inspires one another to achieve remarkable things. Join us, and you'll be part of a team where your individual strengths contribute to a collective success story.",
       icon: <Users className="w-6 h-6 text-orange-600" />,
       bgColor: "bg-orange-100"
     },

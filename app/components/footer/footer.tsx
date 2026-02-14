@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
       <footer className="w-full bg-[#f2f2f2] py-23.5 mt-11.5">
@@ -11,14 +13,14 @@ export default function Footer() {
           {/* Right side links */}
           <div className="flex items-center  justify-evenly lg:justify-start lg:gap-7 text-[16px] text-[#475569]">
             <div className="flex gap-[3vw] flex-col lg:flex-row">
-                <a href="#" className="hover:text-black cursor-pointer transition">Terms</a>
-                <a href="#" className="hover:text-black cursor-pointer transition">Privacy</a>
-                <a href="#" className="hover:text-black cursor-pointer transition">Support</a>
+                <Link href="#" className="hover:text-black cursor-pointer transition">Terms</Link>
+                <Link href="#" className="hover:text-black cursor-pointer transition">Privacy</Link>
+                <Link href="#" className="hover:text-black cursor-pointer transition">Support</Link>
             </div>
             <div className="flex gap-[3vw] flex-col lg:flex-row">
-                <a href="#" className="hover:text-black cursor-pointer transition">About</a>
-                <a href="#" className="hover:text-black cursor-pointer transition">Resources</a>
-                <a href="#" className="hover:text-black cursor-pointer transition">Contact</a>
+                <Link href="/about" className="hover:text-black cursor-pointer transition">About</Link>
+                <Link href="/insight" className="hover:text-black cursor-pointer transition">Resources</Link>
+                <Link href="/about" className="hover:text-black cursor-pointer transition">Contact</Link>
             </div>
           </div> 
         </div>

@@ -54,13 +54,15 @@ const Header = () => {
         <div className="flex justify-between items-center h-16 pr-3 md:pr-0">
           {/* Logo Section */}
           <div className="shrink-0 flex items-center">
-            <Image 
-              src="/assets/images/logo.svg" 
-              alt="WEKS Biotechnologies Ltd." 
-              width={120} 
-              height={30} 
-              className="object-contain"
-            />
+            <Link href="/">
+              <Image 
+                src="/assets/images/logo.svg" 
+                alt="WEKS Biotechnologies Ltd." 
+                width={120} 
+                height={30} 
+                className="object-contain"
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
