@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/favicon.ico', // /public/favicon.ico
+    icon: '/favicon-32x32.png', // /public/favicon.ico
     apple: '/apple-icon.png', // /public/apple-icon.png
   },
   title: "weksbiotechnologiesltd",
