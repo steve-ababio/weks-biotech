@@ -49,7 +49,7 @@ const Header = () => {
     })
   };
   return (
-    <header className="w-full bg-white border-b   md:py-3 border-[#E2E8F0] font-sans sticky top-0 z-50">
+    <header className="w-full bg-white border-b   md:py-3 border-[#E2E8F0] font-sans sticky top-0 z-500000000">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center h-16 pr-3 md:pr-0">
           {/* Logo Section */}
