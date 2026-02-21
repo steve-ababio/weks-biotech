@@ -38,12 +38,21 @@ export const teamData: TeamMember[] = [
     socials: { twitter: "#", linkedin: "#", website: "#" }
   },
   {
-    id: 7,
+    id: 5,
     name: "Barrie McKenzie",
     role: "Consultant",
     bio: "Lead user research for Slack. Contractor for Netflix and Udacity.",
     // Senior professional male
     imageUrl: "/assets/images/team/mckenzie.svg",
+    socials: { twitter: "#", linkedin: "#", website: "#" }
+  },
+  {
+    id: 5,
+    name: "Felicia Fosuaa Boateng",
+    role: "Consultant",
+    bio: "Biological Sciences with a strong commitment to excellence and high-quality performance.",
+    // Senior professional male
+    imageUrl: "/assets/images/team/felicia.svg",
     socials: { twitter: "#", linkedin: "#", website: "#" }
   }
 ];

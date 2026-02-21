@@ -11,13 +11,20 @@ export default function ContactMap(){
                 </div>
                 {/* Map container */}
                 <div className="h-100">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31516.628974291635!2d-0.18696485!3d5.60371655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b1aa4a9d229%3A0xf87e3c7b6d9d4c39!2sAccra!5e0!3m2!1sen!2sgh!4v0000000000000"
+                {/* <iframe
+                    src="https://www.google.com/maps/place/Kpev%C3%A9+agriculture+station/@6.6837445,0.3336701,17z/data=!3m1!4b1!4m6!3m5!1s0x10273fcaebef9857:0x35c76d56106d3af4!8m2!3d6.6837445!4d0.3336701!16s%2Fg%2F11k58nlv1l!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
                     className="w-full h-full border-0"
                     // allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                ></iframe> */}
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.857266155187!2d0.3310951!3d6.6837445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10273fcaebef9857:0x35c76d56106d3af4!2sKpevé%20Agriculture%20Station!5e0!3m2!1sen!2sgh!4v1708350000000"
+                    width="100%"
+                    height="450"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </section>
