@@ -10,7 +10,7 @@ export default function TissueCultureSolutionPlanter() {
                     Tissue Culture Planter
                 </h2>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                WEKS and ISO collaborate to unlock Tissue Culture automation. With its high-tech technology, this innovative Tissue Culture Planter elevates your Tissue Culture production to new levels of excellence.
+                WEKS unlock Tissue Culture automation. With its high-tech technology, this innovative Tissue Culture Planter elevates your Tissue Culture production to new levels of excellence.
                 </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center">
@@ -40,7 +40,7 @@ export default function TissueCultureSolutionPlanter() {
         </h1>
 
         <p className="text-base lg:text-lg">
-            Weks and ISO collaborate to unlock Tissue Culture automation. With its
+            WEKS unlock Tissue Culture automation. With its
             high-tech technology, this innovative Tissue Culture Planter elevates
             your Tissue Culture production to new levels of excellence.
         </p>

@@ -41,7 +41,7 @@ export default function TissueCultureSolutionSection() {
         <p className="text-gray-700 text-lg leading-relaxed">
           Whether experienced with tissue culture or new to the plant tissue culture world,
           we provide everything to build a complete cutting-edge tissue culture laboratory.
-          We provide a turnkey solution from the design of your facility to climate-controlled
+          We provide a solution from the design of your facility to climate-controlled
           multilayer propagation rooms, labor-saving automation, worker equipment, growing
           consumables and in-house training.
         </p>
